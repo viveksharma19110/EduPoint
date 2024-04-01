@@ -88,7 +88,7 @@ export function login(email, password, navigate) {
     const toastId = toast.loading("Loading...")
     dispatch(setLoading(true))
     try {
-      const response = await apiConnector("POST", 'http://localhost:4000/api/v1/auth/login', {
+      const response = await apiConnector("POST", 'https://edupoint.onrender.com/api/v1/auth/login', {
         email,
         password,
       })
