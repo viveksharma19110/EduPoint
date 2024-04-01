@@ -1,4 +1,5 @@
-const BASE_URL = 'http://localhost:4000'
+const BASE_URL = 'https://edupoint.onrender.com'
+
 
 // AUTH ENDPOINTS
 export const endpoints = {
